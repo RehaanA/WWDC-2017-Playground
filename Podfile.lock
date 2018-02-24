@@ -1,0 +1,43 @@
+PODS:
+  - BAFluidView (0.2.3)
+  - JTMaterialTransition (2.0.1)
+  - KDCircularProgress (1.5.2)
+  - KMSegmentedControl (1.0.7)
+  - Koloda (3.1.2):
+    - pop (~> 1.0)
+  - pop (1.0.9)
+  - SimpleAnimation (0.3.0)
+  - SKPhotoBrowser (3.1.3)
+
+DEPENDENCIES:
+  - BAFluidView
+  - JTMaterialTransition (~> 2.0)
+  - KDCircularProgress
+  - KMSegmentedControl
+  - Koloda (~> 3.1.2)
+  - SimpleAnimation
+  - SKPhotoBrowser (from `https://github.com/suzuki-0000/SKPhotoBrowser.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SKPhotoBrowser:
+    :branch: swift3
+    :git: https://github.com/suzuki-0000/SKPhotoBrowser.git
+
+CHECKOUT OPTIONS:
+  SKPhotoBrowser:
+    :commit: 2b51155541dcf95a32917a9a610f851630fa4e41
+    :git: https://github.com/suzuki-0000/SKPhotoBrowser.git
+
+SPEC CHECKSUMS:
+  BAFluidView: 5d84ef109831b97740f75b6d785e51f13fa08398
+  JTMaterialTransition: 2350b44b404d1982a7ba755866cc65da452f4eec
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  KMSegmentedControl: 9e676ef21fed99aae4ee8fbfdb4b24dadb9eaef0
+  Koloda: 5aee353329cd1605540f1215a4c1975481dc7a37
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SimpleAnimation: 1dd61c30ecd0874022eb4a29fdd8dd17df4aa1a2
+  SKPhotoBrowser: 4690ffb59db79849454241ecc65cc3d6af9965bf
+
+PODFILE CHECKSUM: f600e293e4f9c373bccfcbfdcc3dcd6515414181
+
+COCOAPODS: 1.1.1

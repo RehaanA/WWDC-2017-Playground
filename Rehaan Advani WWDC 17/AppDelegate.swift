@@ -12,11 +12,64 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private var shortcutItem: UIApplicationShortcutItem?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]? = nil) -> Bool {
         // Override point for customization after application launch.
+        self.window?.rootViewController = UINavigationController(rootViewController: ViewController())
+
+        if let options = launchOptions,
+            let shortcutItem = options[UIApplicationLaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
+            print("called")
+            self.shortcutItem = shortcutItem
+            return false
+        }
+        
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "SFUIText-Regular", size: 17)!], for: .normal)
+        
+        let pageControl = UIPageControl.appearance()
+        pageControl.pageIndicatorTintColor = UIColor(red: 44/255, green: 62/255, blue: 80/255, alpha: 1.0)
+        pageControl.currentPageIndicatorTintColor = UIColor.white
+        pageControl.backgroundColor = UIColor.clear
+        
         return true
+    }
+    
+    func triggerNotification() {
+        if let shortcut = self.shortcutItem {
+            self.handleQuickAction(shortcut)
+        }
+        self.shortcutItem = nil
+    }
+    
+    func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        completionHandler(handleQuickAction(shortcutItem))
+    }
+    
+    func handleQuickAction(_ shortcutItem: UIApplicationShortcutItem) -> Bool {
+        var quickActionHandled = false
+        let type = shortcutItem.type.components(separatedBy: ".").last!
+        if let shortcutType = Shortcut(rawValue: type) {
+            switch shortcutType {
+            case .aboutMe:
+                NotificationCenter.default.addObserver(ViewController(), selector: #selector(ViewController.aboutMeTapped), name: NSNotification.Name(rawValue: "aboutMe"), object: nil)
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "aboutMe"), object: nil)
+                quickActionHandled = true
+            case .projects:
+                NotificationCenter.default.addObserver(ViewController(), selector: #selector(ViewController.projectsTapped), name: NSNotification.Name(rawValue: "projects"), object: nil)
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "projects"), object: nil)
+                quickActionHandled = true
+            case .skills:
+                NotificationCenter.default.addObserver(ViewController(), selector: #selector(ViewController.skillsTapped), name: NSNotification.Name(rawValue: "skills"), object: nil)
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "skills"), object: nil)
+                quickActionHandled = true
+            case .wwdc2016:
+                NotificationCenter.default.addObserver(ViewController(), selector: #selector(ViewController.wwdcTapped), name: NSNotification.Name(rawValue: "wwdc"), object: nil)
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "wwdc"), object: nil)
+                quickActionHandled = true
+            }
+        }
+        return quickActionHandled
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +93,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+}
 
-
+public enum Shortcut: String {
+    case aboutMe = "About Me"
+    case projects = "Projects"
+    case skills = "Skills"
+    case wwdc2016 = "WWDC 2016"
 }
 

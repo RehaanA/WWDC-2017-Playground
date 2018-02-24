@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-UI-Display-Bold.otf</string>
+		<string>SF-UI-Display-Light.otf</string>
+		<string>SF-UI-Text-Light.otf</string>
+		<string>SF-UI-Text-Regular.otf</string>
+		<string>JOURNAL.TTF</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +39,49 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string></string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>WWDC 2016</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).WWDC 2016</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>apple</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string></string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Skills</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).Skills</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>skills</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string></string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Projects</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).Projects</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>projects</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string></string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>About Me</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).About Me</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>about</string>
+		</dict>
 	</array>
 </dict>
 </plist>

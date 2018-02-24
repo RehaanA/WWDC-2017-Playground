@@ -1,0 +1,6 @@
+framework module KMSegmentedControl {
+  umbrella header "KMSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

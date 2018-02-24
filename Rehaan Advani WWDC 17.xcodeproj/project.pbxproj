@@ -12,9 +12,35 @@
 		AA041BE71DE61C40006A8064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA041BE51DE61C40006A8064 /* Main.storyboard */; };
 		AA041BE91DE61C40006A8064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA041BE81DE61C40006A8064 /* Assets.xcassets */; };
 		AA041BEC1DE61C40006A8064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA041BEA1DE61C40006A8064 /* LaunchScreen.storyboard */; };
+		AA2B7D1A1DEAB74A0075C2D9 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D191DEAB74A0075C2D9 /* AboutMeViewController.swift */; };
+		AA2B7D1C1DEABB080075C2D9 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D1B1DEABB080075C2D9 /* ProjectsViewController.swift */; };
+		AA2B7D1E1DEABB1C0075C2D9 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D1D1DEABB1C0075C2D9 /* SkillsViewController.swift */; };
+		AA2B7D201DEABB3B0075C2D9 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D1F1DEABB3B0075C2D9 /* WorkViewController.swift */; };
+		AA2B7D221DEABB5B0075C2D9 /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D211DEABB5B0075C2D9 /* AchievementsViewController.swift */; };
+		AA2B7D241DEABB800075C2D9 /* WWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7D231DEABB800075C2D9 /* WWDCViewController.swift */; };
+		AA5681161E617A01005FE9AF /* ProjectsDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5681151E617A01005FE9AF /* ProjectsDetailPageViewController.swift */; };
+		AA64E7F31E1325A600B84751 /* InterestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64E7F21E1325A600B84751 /* InterestsTableViewCell.swift */; };
+		AA64E7F51E135AA400B84751 /* InterestsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64E7F41E135AA300B84751 /* InterestsDetailViewController.swift */; };
+		AA86C5871E5E67F8005C722B /* SkillsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86C5861E5E67F8005C722B /* SkillsDetailViewController.swift */; };
+		AAA2B12C1DE6DFE900888321 /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AAA2B1281DE6DFE900888321 /* SF-UI-Display-Bold.otf */; };
+		AAA2B12D1DE6DFE900888321 /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AAA2B1291DE6DFE900888321 /* SF-UI-Display-Light.otf */; };
+		AAA2B12E1DE6DFE900888321 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AAA2B12A1DE6DFE900888321 /* SF-UI-Text-Light.otf */; };
+		AAA2B12F1DE6DFE900888321 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AAA2B12B1DE6DFE900888321 /* SF-UI-Text-Regular.otf */; };
+		AAA6F3FE1E57DBA400390DA0 /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6F3FD1E57DBA400390DA0 /* EducationTableViewCell.swift */; };
+		AAA6F4001E58D71700390DA0 /* WWDCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6F3FF1E58D71700390DA0 /* WWDCDetailViewController.swift */; };
+		AAA6F4021E5A2AA700390DA0 /* JOURNAL.TTF in Resources */ = {isa = PBXBuildFile; fileRef = AAA6F4011E5A2AA600390DA0 /* JOURNAL.TTF */; };
+		AAA6F4041E5AB32E00390DA0 /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6F4031E5AB32E00390DA0 /* ProjectsTableViewCell.swift */; };
+		AAA6F4061E5B70FB00390DA0 /* ProjectsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6F4051E5B70FA00390DA0 /* ProjectsDetailViewController.swift */; };
+		AAB6FF111E6A6ED300E60C90 /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB6FF101E6A6ED200E60C90 /* WorkTableViewCell.swift */; };
+		AAEAB8701E6A933000921832 /* WorkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAB86F1E6A933000921832 /* WorkMapViewController.swift */; };
+		AAEAB8721E6B9D2900921832 /* HonorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAB8711E6B9D2900921832 /* HonorsTableViewCell.swift */; };
+		D88988D81AF581ED45FFA9FE /* Pods_Rehaan_Advani_WWDC_17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AF616BCD61AC173A7DF927 /* Pods_Rehaan_Advani_WWDC_17.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346AA899CD1BFEEFAC8F9156 /* Pods-Rehaan Advani WWDC 17.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehaan Advani WWDC 17.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rehaan Advani WWDC 17/Pods-Rehaan Advani WWDC 17.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC6B135D028B8A8E945E745 /* Pods-Rehaan Advani WWDC 17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rehaan Advani WWDC 17.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rehaan Advani WWDC 17/Pods-Rehaan Advani WWDC 17.release.xcconfig"; sourceTree = "<group>"; };
+		95AF616BCD61AC173A7DF927 /* Pods_Rehaan_Advani_WWDC_17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rehaan_Advani_WWDC_17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA041BDE1DE61C40006A8064 /* Rehaan Advani WWDC 17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rehaan Advani WWDC 17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA041BE11DE61C40006A8064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA041BE31DE61C40006A8064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,28 @@
 		AA041BE81DE61C40006A8064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA041BEB1DE61C40006A8064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA041BED1DE61C40006A8064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2B7D191DEAB74A0075C2D9 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		AA2B7D1B1DEABB080075C2D9 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		AA2B7D1D1DEABB1C0075C2D9 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		AA2B7D1F1DEABB3B0075C2D9 /* WorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		AA2B7D211DEABB5B0075C2D9 /* AchievementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		AA2B7D231DEABB800075C2D9 /* WWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCViewController.swift; sourceTree = "<group>"; };
+		AA5681151E617A01005FE9AF /* ProjectsDetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsDetailPageViewController.swift; sourceTree = "<group>"; };
+		AA64E7F21E1325A600B84751 /* InterestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsTableViewCell.swift; sourceTree = "<group>"; };
+		AA64E7F41E135AA300B84751 /* InterestsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsDetailViewController.swift; sourceTree = "<group>"; };
+		AA86C5861E5E67F8005C722B /* SkillsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsDetailViewController.swift; sourceTree = "<group>"; };
+		AAA2B1281DE6DFE900888321 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		AAA2B1291DE6DFE900888321 /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		AAA2B12A1DE6DFE900888321 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		AAA2B12B1DE6DFE900888321 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		AAA6F3FD1E57DBA400390DA0 /* EducationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
+		AAA6F3FF1E58D71700390DA0 /* WWDCDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCDetailViewController.swift; sourceTree = "<group>"; };
+		AAA6F4011E5A2AA600390DA0 /* JOURNAL.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = JOURNAL.TTF; sourceTree = "<group>"; };
+		AAA6F4031E5AB32E00390DA0 /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		AAA6F4051E5B70FA00390DA0 /* ProjectsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsDetailViewController.swift; sourceTree = "<group>"; };
+		AAB6FF101E6A6ED200E60C90 /* WorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
+		AAEAB86F1E6A933000921832 /* WorkMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkMapViewController.swift; sourceTree = "<group>"; };
+		AAEAB8711E6B9D2900921832 /* HonorsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HonorsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88988D81AF581ED45FFA9FE /* Pods_Rehaan_Advani_WWDC_17.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		800151835725EE19006B31A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				346AA899CD1BFEEFAC8F9156 /* Pods-Rehaan Advani WWDC 17.debug.xcconfig */,
+				4AC6B135D028B8A8E945E745 /* Pods-Rehaan Advani WWDC 17.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA041BD51DE61C3F006A8064 = {
 			isa = PBXGroup;
 			children = (
 				AA041BE01DE61C40006A8064 /* Rehaan Advani WWDC 17 */,
 				AA041BDF1DE61C40006A8064 /* Products */,
+				800151835725EE19006B31A9 /* Pods */,
+				B034006DF8408DE573A5D522 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +116,42 @@
 			children = (
 				AA041BE11DE61C40006A8064 /* AppDelegate.swift */,
 				AA041BE31DE61C40006A8064 /* ViewController.swift */,
+				AA2B7D191DEAB74A0075C2D9 /* AboutMeViewController.swift */,
+				AA64E7F41E135AA300B84751 /* InterestsDetailViewController.swift */,
+				AA2B7D1B1DEABB080075C2D9 /* ProjectsViewController.swift */,
+				AAA6F4051E5B70FA00390DA0 /* ProjectsDetailViewController.swift */,
+				AA5681151E617A01005FE9AF /* ProjectsDetailPageViewController.swift */,
+				AA2B7D1D1DEABB1C0075C2D9 /* SkillsViewController.swift */,
+				AA86C5861E5E67F8005C722B /* SkillsDetailViewController.swift */,
+				AA2B7D1F1DEABB3B0075C2D9 /* WorkViewController.swift */,
+				AAEAB86F1E6A933000921832 /* WorkMapViewController.swift */,
+				AA2B7D211DEABB5B0075C2D9 /* AchievementsViewController.swift */,
+				AA2B7D231DEABB800075C2D9 /* WWDCViewController.swift */,
+				AAA6F3FF1E58D71700390DA0 /* WWDCDetailViewController.swift */,
 				AA041BE51DE61C40006A8064 /* Main.storyboard */,
 				AA041BE81DE61C40006A8064 /* Assets.xcassets */,
 				AA041BEA1DE61C40006A8064 /* LaunchScreen.storyboard */,
 				AA041BED1DE61C40006A8064 /* Info.plist */,
+				AAA2B1281DE6DFE900888321 /* SF-UI-Display-Bold.otf */,
+				AAA2B1291DE6DFE900888321 /* SF-UI-Display-Light.otf */,
+				AAA2B12A1DE6DFE900888321 /* SF-UI-Text-Light.otf */,
+				AAA2B12B1DE6DFE900888321 /* SF-UI-Text-Regular.otf */,
+				AAA6F4011E5A2AA600390DA0 /* JOURNAL.TTF */,
+				AA64E7F21E1325A600B84751 /* InterestsTableViewCell.swift */,
+				AAA6F3FD1E57DBA400390DA0 /* EducationTableViewCell.swift */,
+				AAA6F4031E5AB32E00390DA0 /* ProjectsTableViewCell.swift */,
+				AAB6FF101E6A6ED200E60C90 /* WorkTableViewCell.swift */,
+				AAEAB8711E6B9D2900921832 /* HonorsTableViewCell.swift */,
 			);
 			path = "Rehaan Advani WWDC 17";
+			sourceTree = "<group>";
+		};
+		B034006DF8408DE573A5D522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95AF616BCD61AC173A7DF927 /* Pods_Rehaan_Advani_WWDC_17.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA041BF01DE61C40006A8064 /* Build configuration list for PBXNativeTarget "Rehaan Advani WWDC 17" */;
 			buildPhases = (
+				0910EE9A7512ADDFF3CA043D /* [CP] Check Pods Manifest.lock */,
 				AA041BDA1DE61C40006A8064 /* Sources */,
 				AA041BDB1DE61C40006A8064 /* Frameworks */,
 				AA041BDC1DE61C40006A8064 /* Resources */,
+				86AD4824D8A69D974A384034 /* [CP] Embed Pods Frameworks */,
+				BB4A401BBB546A28EDB0E4CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +217,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA2B12D1DE6DFE900888321 /* SF-UI-Display-Light.otf in Resources */,
 				AA041BEC1DE61C40006A8064 /* LaunchScreen.storyboard in Resources */,
+				AAA6F4021E5A2AA700390DA0 /* JOURNAL.TTF in Resources */,
 				AA041BE91DE61C40006A8064 /* Assets.xcassets in Resources */,
+				AAA2B12C1DE6DFE900888321 /* SF-UI-Display-Bold.otf in Resources */,
+				AAA2B12E1DE6DFE900888321 /* SF-UI-Text-Light.otf in Resources */,
+				AAA2B12F1DE6DFE900888321 /* SF-UI-Text-Regular.otf in Resources */,
 				AA041BE71DE61C40006A8064 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0910EE9A7512ADDFF3CA043D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86AD4824D8A69D974A384034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rehaan Advani WWDC 17/Pods-Rehaan Advani WWDC 17-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4A401BBB546A28EDB0E4CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rehaan Advani WWDC 17/Pods-Rehaan Advani WWDC 17-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA041BDA1DE61C40006A8064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA6F4001E58D71700390DA0 /* WWDCDetailViewController.swift in Sources */,
+				AA2B7D1C1DEABB080075C2D9 /* ProjectsViewController.swift in Sources */,
+				AAA6F4041E5AB32E00390DA0 /* ProjectsTableViewCell.swift in Sources */,
+				AAA6F3FE1E57DBA400390DA0 /* EducationTableViewCell.swift in Sources */,
+				AAB6FF111E6A6ED300E60C90 /* WorkTableViewCell.swift in Sources */,
 				AA041BE41DE61C40006A8064 /* ViewController.swift in Sources */,
+				AA2B7D1A1DEAB74A0075C2D9 /* AboutMeViewController.swift in Sources */,
+				AA2B7D201DEABB3B0075C2D9 /* WorkViewController.swift in Sources */,
+				AAEAB8701E6A933000921832 /* WorkMapViewController.swift in Sources */,
+				AA2B7D1E1DEABB1C0075C2D9 /* SkillsViewController.swift in Sources */,
+				AAEAB8721E6B9D2900921832 /* HonorsTableViewCell.swift in Sources */,
+				AA86C5871E5E67F8005C722B /* SkillsDetailViewController.swift in Sources */,
+				AA2B7D221DEABB5B0075C2D9 /* AchievementsViewController.swift in Sources */,
+				AA5681161E617A01005FE9AF /* ProjectsDetailPageViewController.swift in Sources */,
+				AA64E7F31E1325A600B84751 /* InterestsTableViewCell.swift in Sources */,
+				AA64E7F51E135AA400B84751 /* InterestsDetailViewController.swift in Sources */,
+				AAA6F4061E5B70FB00390DA0 /* ProjectsDetailViewController.swift in Sources */,
 				AA041BE21DE61C40006A8064 /* AppDelegate.swift in Sources */,
+				AA2B7D241DEABB800075C2D9 /* WWDCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +420,7 @@
 		};
 		AA041BF11DE61C40006A8064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346AA899CD1BFEEFAC8F9156 /* Pods-Rehaan Advani WWDC 17.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57L58ZR5AC;
@@ -270,6 +434,7 @@
 		};
 		AA041BF21DE61C40006A8064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC6B135D028B8A8E945E745 /* Pods-Rehaan Advani WWDC 17.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57L58ZR5AC;
@@ -300,6 +465,7 @@
 				AA041BF21DE61C40006A8064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
